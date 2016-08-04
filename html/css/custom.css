@@ -1,0 +1,22 @@
+/**
+1. General
+2. Parallax
+**/
+
+/** General **/
+body{
+   background:url(
+     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAABZJREFUCB1jYEADF4+8/I8iRA0BoIEAko0RcgZMu1AAAAAASUVORK5CYII=
+   ) repeat;
+}
+
+/** Parallax **/
+
+.parallax img {
+  filter:blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.parallax-container {
+      height: auto;
+    }
